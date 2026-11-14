@@ -168,7 +168,7 @@ class ConfigManager {
   }
 
   private migrateConfig(config: Config): Config {
-    /* TODO: Add migrations */
+    // Future: add version migrations when config schema evolves
     return config;
   }
 
